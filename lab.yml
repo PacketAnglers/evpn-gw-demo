@@ -32,7 +32,7 @@ topology:
       mgmt-ipv4: 172.100.100.101
       binds:
         - sn/a-spine.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/A-SPINE.cfg
+      startup-config: configs/A-SPINE.cfg
       ports:
         - '22001:22'
         - '8001:80'
@@ -44,7 +44,7 @@ topology:
       mgmt-ipv4: 172.100.100.102
       binds:
         - sn/a-leaf.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/A-LEAF.cfg
+      startup-config: configs/A-LEAF.cfg
       ports:
         - '22002:22'
         - '8002:80'
@@ -56,7 +56,7 @@ topology:
       mgmt-ipv4: 172.100.100.103
       binds:
         - sn/a-border-1.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/A-BORDER-1.cfg
+      startup-config: configs/A-BORDER-1.cfg
       ports:
         - '22003:22'
         - '8003:80'
@@ -68,7 +68,7 @@ topology:
       mgmt-ipv4: 172.100.100.104
       binds:
         - sn/a-border-2.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/A-BORDER-2.cfg
+      startup-config: configs/A-BORDER-2.cfg
       ports:
         - '22004:22'
         - '8004:80'
@@ -80,7 +80,7 @@ topology:
       mgmt-ipv4: 172.100.100.105
       binds:
         - sn/b-spine.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/B-SPINE.cfg
+      startup-config: configs/B-SPINE.cfg
       ports:
         - '22005:22'
         - '8005:80'
@@ -92,7 +92,7 @@ topology:
       mgmt-ipv4: 172.100.100.106
       binds:
         - sn/b-leaf.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/B-LEAF.cfg
+      startup-config: configs/B-LEAF.cfg
       ports:
         - '22006:22'
         - '8006:80'
@@ -104,7 +104,7 @@ topology:
       mgmt-ipv4: 172.100.100.107
       binds:
         - sn/b-border-1.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/B-BORDER-1.cfg
+      startup-config: configs/B-BORDER-1.cfg
       ports:
         - '22007:22'
         - '8007:80'
@@ -116,7 +116,7 @@ topology:
       mgmt-ipv4: 172.100.100.108
       binds:
         - sn/b-border-2.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/B-BORDER-2.cfg
+      startup-config: configs/B-BORDER-2.cfg
       ports:
         - '22008:22'
         - '8008:80'
@@ -128,7 +128,7 @@ topology:
       mgmt-ipv4: 172.100.100.109
       binds:
         - sn/dci-mpls.txt:/mnt/flash/ceos-config:ro
-      # startup-config: init-configs/DCI-MPLS.cfg
+      startup-config: configs/DCI-MPLS.cfg
       ports:
         - '22009:22'
         - '8009:80'
