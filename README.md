@@ -25,4 +25,4 @@ From the terminal:
 
 ## Topology
 
-![Topology](./assets/images/evpn-gw-demo-topo.png)
+![Topology](./assets/images/topo.png)
