@@ -3,7 +3,7 @@
 # Arista EVPN Gateway Demo
 # --------------------------------------------------------------
 
-name: arista-evpn-dg
+name: arista-evpn-gw-demo
 
 prefix: ""
 
