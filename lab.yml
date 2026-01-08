@@ -19,7 +19,7 @@ topology:
 
   kinds:
     ceos:
-      image: ceos:latest
+      image: arista/ceos:latest
       env:
         CLAB_MGMT_VRF: MGMT
     linux:
@@ -37,7 +37,7 @@ topology:
         - '22001:22'
         - '8001:80'
         - '44301:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     A-LEAF:
       kind: ceos
@@ -49,7 +49,7 @@ topology:
         - '22002:22'
         - '8002:80'
         - '44302:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     A-BORDER-1:
       kind: ceos
@@ -61,7 +61,7 @@ topology:
         - '22003:22'
         - '8003:80'
         - '44303:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     A-BORDER-2:
       kind: ceos
@@ -73,7 +73,7 @@ topology:
         - '22004:22'
         - '8004:80'
         - '44304:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     B-SPINE:
       kind: ceos
@@ -85,7 +85,7 @@ topology:
         - '22005:22'
         - '8005:80'
         - '44305:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     B-LEAF:
       kind: ceos
@@ -97,7 +97,7 @@ topology:
         - '22006:22'
         - '8006:80'
         - '44306:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     B-BORDER-1:
       kind: ceos
@@ -109,7 +109,7 @@ topology:
         - '22007:22'
         - '8007:80'
         - '44307:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     B-BORDER-2:
       kind: ceos
@@ -121,7 +121,7 @@ topology:
         - '22008:22'
         - '8008:80'
         - '44308:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     DCI-MPLS:
       kind: ceos
@@ -133,7 +133,7 @@ topology:
         - '22009:22'
         - '8009:80'
         - '44309:443'
-      image: ceos:latest
+      image: arista/ceos:latest
 
     HostA1:
       kind: linux
