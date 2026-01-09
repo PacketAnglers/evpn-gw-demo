@@ -20,7 +20,7 @@ From the terminal:
 
 - [ContainerLab](https://containerlab.dev/install/) Host
 - [cEOS-Lab image](https://www.arista.com/en/support/software-download)
-- cEOS-Lab image imported into Docker as `ceos:latest`
+- cEOS-Lab image imported into Docker as `arista/ceos:latest`
 - 16G RAM
 
 ## Topology
