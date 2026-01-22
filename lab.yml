@@ -145,7 +145,7 @@ topology:
         IPV6: 2001:db8:10:10::101/64
       ports:
         - '22201:22'
-      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.0
+      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.1
 
     HostA2:
       kind: linux
@@ -157,7 +157,7 @@ topology:
         IPV6: 2001:db8:20:20::101/64
       ports:
         - '22202:22'
-      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.0
+      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.1
 
     HostB1:
       kind: linux
@@ -169,7 +169,7 @@ topology:
         IPV6: 2001:db8:10:10::101/64
       ports:
         - '22203:22'
-      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.0
+      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.1
 
     HostB2:
       kind: linux
@@ -181,7 +181,7 @@ topology:
         IPV6: 2001:db8:30:30::101/64
       ports:
         - '22204:22'
-      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.0
+      image: ghcr.io/aristanetworks/aclabs/host-ubuntu:rev1.1
 
   links:
     - endpoints: [ A-SPINE:et1, A-LEAF:et1 ]
