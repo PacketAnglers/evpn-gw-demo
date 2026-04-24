@@ -18,7 +18,7 @@ topology:
       INTFTYPE: et
 
   kinds:
-    ceos:
+    arista_ceos:
       image: arista/ceos:latest
       env:
         CLAB_MGMT_VRF: MGMT
@@ -28,7 +28,7 @@ topology:
   nodes:
 
     A-SPINE:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.101
       binds:
         - sn/a-spine.txt:/mnt/flash/ceos-config:ro
@@ -40,7 +40,7 @@ topology:
       image: arista/ceos:latest
 
     A-LEAF:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.102
       binds:
         - sn/a-leaf.txt:/mnt/flash/ceos-config:ro
@@ -52,7 +52,7 @@ topology:
       image: arista/ceos:latest
 
     A-BORDER-1:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.103
       binds:
         - sn/a-border-1.txt:/mnt/flash/ceos-config:ro
@@ -64,7 +64,7 @@ topology:
       image: arista/ceos:latest
 
     A-BORDER-2:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.104
       binds:
         - sn/a-border-2.txt:/mnt/flash/ceos-config:ro
@@ -76,7 +76,7 @@ topology:
       image: arista/ceos:latest
 
     B-SPINE:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.105
       binds:
         - sn/b-spine.txt:/mnt/flash/ceos-config:ro
@@ -88,7 +88,7 @@ topology:
       image: arista/ceos:latest
 
     B-LEAF:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.106
       binds:
         - sn/b-leaf.txt:/mnt/flash/ceos-config:ro
@@ -100,7 +100,7 @@ topology:
       image: arista/ceos:latest
 
     B-BORDER-1:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.107
       binds:
         - sn/b-border-1.txt:/mnt/flash/ceos-config:ro
@@ -112,7 +112,7 @@ topology:
       image: arista/ceos:latest
 
     B-BORDER-2:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.108
       binds:
         - sn/b-border-2.txt:/mnt/flash/ceos-config:ro
@@ -124,7 +124,7 @@ topology:
       image: arista/ceos:latest
 
     DCI-MPLS:
-      kind: ceos
+      kind: arista_ceos
       mgmt-ipv4: 172.100.100.109
       binds:
         - sn/dci-mpls.txt:/mnt/flash/ceos-config:ro
