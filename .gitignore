@@ -288,3 +288,6 @@ avd_inventory/config_backup/
 
 clab-*/
 *.bak
+
+# Added by Sandbox Dashboard: keep saved configs tracked
+!startup-configs/*

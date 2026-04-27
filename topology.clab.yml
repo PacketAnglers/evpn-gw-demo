@@ -29,7 +29,8 @@ topology:
       mgmt-ipv4: 172.100.100.101
       binds:
         - sn/a-spine.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/A-SPINE.cfg
+      # was: startup-config: configs/A-SPINE.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     A-LEAF:
@@ -37,7 +38,8 @@ topology:
       mgmt-ipv4: 172.100.100.102
       binds:
         - sn/a-leaf.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/A-LEAF.cfg
+      # was: startup-config: configs/A-LEAF.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     A-BORDER-1:
@@ -45,7 +47,8 @@ topology:
       mgmt-ipv4: 172.100.100.103
       binds:
         - sn/a-border-1.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/A-BORDER-1.cfg
+      # was: startup-config: configs/A-BORDER-1.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     A-BORDER-2:
@@ -53,7 +56,8 @@ topology:
       mgmt-ipv4: 172.100.100.104
       binds:
         - sn/a-border-2.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/A-BORDER-2.cfg
+      # was: startup-config: configs/A-BORDER-2.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     B-SPINE:
@@ -61,7 +65,8 @@ topology:
       mgmt-ipv4: 172.100.100.105
       binds:
         - sn/b-spine.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/B-SPINE.cfg
+      # was: startup-config: configs/B-SPINE.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     B-LEAF:
@@ -69,7 +74,8 @@ topology:
       mgmt-ipv4: 172.100.100.106
       binds:
         - sn/b-leaf.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/B-LEAF.cfg
+      # was: startup-config: configs/B-LEAF.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     B-BORDER-1:
@@ -77,7 +83,8 @@ topology:
       mgmt-ipv4: 172.100.100.107
       binds:
         - sn/b-border-1.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/B-BORDER-1.cfg
+      # was: startup-config: configs/B-BORDER-1.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     B-BORDER-2:
@@ -85,7 +92,8 @@ topology:
       mgmt-ipv4: 172.100.100.108
       binds:
         - sn/b-border-2.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/B-BORDER-2.cfg
+      # was: startup-config: configs/B-BORDER-2.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     DCI-MPLS:
@@ -93,7 +101,8 @@ topology:
       mgmt-ipv4: 172.100.100.109
       binds:
         - sn/dci-mpls.txt:/mnt/flash/ceos-config:ro
-      startup-config: configs/DCI-MPLS.cfg
+      # was: startup-config: configs/DCI-MPLS.cfg (replaced by Sandbox Dashboard 2026-04-27)
+      startup-config: startup-configs/__clabLabName__/__clabNodeName__/startup-config
       image: arista/ceos:latest
 
     HostA1:
