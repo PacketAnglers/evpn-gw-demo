@@ -1,0 +1,103 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "trafficRateAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "A-SPINE",
+      "position": {
+        "x": 300,
+        "y": 100
+      }
+    },
+    {
+      "id": "A-LEAF",
+      "position": {
+        "x": 160,
+        "y": 200
+      }
+    },
+    {
+      "id": "A-BORDER-1",
+      "position": {
+        "x": 480,
+        "y": 60
+      }
+    },
+    {
+      "id": "A-BORDER-2",
+      "position": {
+        "x": 460,
+        "y": 160
+      }
+    },
+    {
+      "id": "B-SPINE",
+      "position": {
+        "x": 660,
+        "y": 480
+      }
+    },
+    {
+      "id": "B-LEAF",
+      "position": {
+        "x": 640,
+        "y": 640
+      }
+    },
+    {
+      "id": "B-BORDER-1",
+      "position": {
+        "x": 600,
+        "y": 320
+      }
+    },
+    {
+      "id": "B-BORDER-2",
+      "position": {
+        "x": 700,
+        "y": 300
+      }
+    },
+    {
+      "id": "DCI-MPLS",
+      "position": {
+        "x": 620,
+        "y": 160
+      }
+    },
+    {
+      "id": "HostA1",
+      "position": {
+        "x": 180,
+        "y": 360
+      }
+    },
+    {
+      "id": "HostA2",
+      "position": {
+        "x": 40,
+        "y": 320
+      }
+    },
+    {
+      "id": "HostB1",
+      "position": {
+        "x": 480,
+        "y": 680
+      }
+    },
+    {
+      "id": "HostB2",
+      "position": {
+        "x": 560,
+        "y": 780
+      }
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}
